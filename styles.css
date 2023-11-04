@@ -1,0 +1,66 @@
+#export-btn {
+    background: #10d15d;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    cursor: pointer;
+}
+
+#add-row-btn,
+#add-column-btn {
+  background-color: #7eb4ea;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#add-row-btn:hover,
+#add-column-btn:hover {
+  background-color: #5691c8;
+}
+
+#remove-row-btn,
+#remove-column-btn {
+  background-color: #f497a9;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#remove-row-btn:hover,
+#remove-column-btn:hover {
+  background-color: #e57385;
+}
+
+
+.cell-row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    border: 1px solid lightgray;
+    height: 40px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cell.header {
+    text-align: center;
+    background: #ddd;
+}
+
+.cell.header.active {
+    background: lightskyblue;
+    color: white;
+}
